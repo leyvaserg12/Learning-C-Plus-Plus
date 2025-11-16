@@ -1,8 +1,14 @@
 #include <iostream> /* iostream -> header file for basic input and output operations */
 
 int main(){
-    std::cout << "Hello World!" << std::endl; /* std::cout -> standard character out, std::endl -> end line (ie. "\n")*/
+    int x; /* declaration */
+    int y = 6; /* declaration + assignment */
+    x = 5; /* assignment */
 
-    std::cout << "My Name is Serg" << '\n'; /*std:endl and '\n' basically the same to end line ('\n' better performance wise)*/
+    int sum = x + y;
+    std::cout << x << '\n'; /* printing variable x */
+    std::cout << y << '\n';
+    
+    std::cout << sum << '\n'; 
     return 0;
 }
