@@ -49,13 +49,18 @@ int main(){
     bool power = true;
     bool forSale = true;
 
-    /* Strings */
+    /* Strings (objects that represent a sequence of text) */
     std::string name = "Serg"; /* this is how you declare and assign strings*/
     std::string day = "Wednesday";
+
     
     std::cout << "String variable assignment: " << std::endl;
     std::cout << name << std::endl;
     std::cout << day << std::endl;
 
+    /* string literal */
+    std::cout << "Hello " << name << std::endl;
+    std::cout << "You are " << age << " years old" << std::endl;
+    
     return 0;
 }
