@@ -1,9 +1,15 @@
 #include <iostream> /* iostream -> header file for basic input and output operations */
 #include <vector> 
 
-// typedef std::vector<std::pair<std::string, int>> pairlist_t
+/* 
+typedef std::vector<std::pair<std::string, int>> pairlist_t
 typedef std::string text_t;
 typedef int number_t;
+*/
+    
+/* we can also use the 'using' keyword in replacement of 'typedef' */
+using text_t = std::string;
+using number_t = int;
 int main(){
     
     /* typedefs helps with readability and reduces typos
